@@ -1,0 +1,6 @@
+Hello, I'm Ahmed Yasser
+This is part of the project of software engineering
+in which we created a pharmacy and applied Incremental & Agile models
+as well as gathering the Functional & Non Functional Requirements from the client.
+This part focuses on using a website to create the pharmacy using streamlit library
+To run it on your terminal in VSCode streamlit run FinalPharmacy.py
