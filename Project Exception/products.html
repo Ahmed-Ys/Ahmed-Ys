@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/Images/xlogo.png">
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <script src="./Assets/JavaScript/fun.js" defer></script>
+    <title>Products</title>
+</head>
+<body class="P" onload="detDate()">
+    <header>
+        <div>
+            <img src="./Assets/Images/logo1w.png"  id="logo" alt="This Img is unavialable">
+        </div>
+        <div class="sb">
+            <input type="search" placeholder="Search..." id="searchbar">
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                </ul>  
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="pr">
+            <i class="fa-solid fa-arrow-right-arrow-left proi"></i>
+            <p id="pro">Sell Your Product</p>
+            <button id="proBu">Add</button>
+        </div>
+        <div class="pr">
+            <i class="fa-solid fa-rotate proi"></i>
+            <p id="pro">Update Your Product</p>
+            <button id="proBu">Update</button>
+        </div>
+        <div class="pr">
+            <i class="fa-solid fa-trash-can proi"></i>
+            <p id="pro">Delete Your Product</p>
+            <button id="proBu">Remove</button>
+        </div>
+        <div class="proInfo">
+            <form>
+                <label for="N">Name</label>
+                <input type="text" name="N" id="prona" placeholder="Name of the product">
+                <div class="prform">
+                    <label for="D">Description</label>
+                    <textarea name="D" id="prodes"></textarea>
+                </div>
+                <div class="prform">
+                    <label for="pic">Upload a picture of the product</label>
+                    <input type="file" name="pic" id="propic">
+                </div>
+                <div>
+                    <label for="pr">Price</label>
+                    <input type="text" name="pr" id="prona" placeholder="Price in Egyptian Pounds">
+                </div>
+                <div class="exp">
+                    <!-- <input type="button" value="Create" class="buSU crpro" id="addproduct"> -->
+                    <button class="buSU crpro" id="addproduct">Create</button>
+                    <input type="submit" value="Cancel" class="buSU crpro1">
+                </div>
+                    
+            </form>
+        </div>
+        
+    </main>
+    <footer class="fopro">
+        <div id="flogo">
+            <img src="./Assets/Images/logo1.png"  alt="Unavailable" id="fflogo">
+        </div>
+        <div>
+            
+            <p class="dday"><i class="fa-solid fa-calendar"></i> <span id="day">DAY</span> / <span id="month">MONTH</span></p>
+        </div>
+        <div>
+            <p>Project E-Commerce 2022 CopyRight &trade;</p>
+        </div>
+        <div class="listf">
+            <ul>
+                <li><a href="products.html" class="top">Top Page <i class="fa-solid fa-arrow-up"></i></a></li>
+                <li><a href="index.html" class="top">Main Page</a></li>
+                <li><a href="Services.html" class="top">Services</a></li>
+                <li><a href="aboutUs.html"class="top">About Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
