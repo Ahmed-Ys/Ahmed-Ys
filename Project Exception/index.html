@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/Images/xlogo.png">
+    <title>EXCEPTION</title>
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <script src="./Assets/JavaScript/fun.js" defer></script>
+</head>
+<body onload="detDate()">
+    <header>
+        <div>
+            <img src="./Assets/Images/logo1w.png"  id="logo" alt="This Img is unavialable">
+        </div>
+        <div class="sb">
+            <input type="search" placeholder="Search..." id="searchbar">
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Cart.html">Add To Cart</a></li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                </ul>  
+            </nav>
+        </div>
+    </header>
+    <main id="org">
+        <div class="p1 NEWP">
+            <div id="imgpos">
+                <img src="./Assets/Images/p1.jpg" class="p1img" alt="Unavailable">
+            </div>
+            <div class="p1T">
+                <h3>Apple Watch</h3>
+                <p>The larger display enhances the entire experience, making Apple Watch easier to use and read. Series 7 represents our biggest and brightest thinking yet. <br>
+                    The challenge was to create a bigger display while barely expanding the dimensions of the watch itself. To do so, the display was completely re‑engineered reducing the borders by 40%, allowing for more screen area than both Series 6 and Series 3. Now that’s something to smile about
+                </p>
+                <button id="buP1" class="x" onclick="payment()">7000 LE</button>
+            </div>
+        </div>
+        
+        <div class="trainc">
+            <div class="train">
+                <img src="./Assets/Images/labp11.jpg" class="imgtrain" alt="Unavailable">
+                <h3>Hp Labtop</h3>
+                <p>FHD 1080p <br> 60 Hz 
+                Nvidia GEFORCE MX 130,Intel UHD <br>
+            12GB ram ,1T HDD</p>
+            <button class="modbup1 x" onclick="payment()">15000 LE</button>
+            </div>
+            
+            <div class="train">
+                <img src="./Assets/Images/prd2.jpg" class="imgtrain" alt="Unavailable">
+                <h3>Swiss Watch</h3>
+                <p>this product is a smart watch that is
+                    water & dust proof premium quality materials & craftsmanship</p>
+                <button class="modbup1 x" onclick="payment()">5000 LE</button>
+            </div>
+    
+            <div class="train">
+                <img src="./Assets/Images/pro3.jpg" class="imgtrain" alt="Unavailable">
+                <h3>Samsung Z Flip</h3>
+                <p>Named One of time’s Best Inventions of 2021,
+                Flips open to full-screened 5G smartphone</p>
+                <button class="modbup1 x" onclick="payment()">25000 LE</button>
+            </div>
+    
+            <div class="train">
+                <img src="./Assets/Images/pro4.jpg" class="imgtrain" alt="Unavailable">
+                <h3>Sony PS5</h3>
+                <p>Experience lightning-fast loading with 
+                    an ultra-high speed SSD, deeper immersion
+                    plus haptic feedback </p>
+                <button class="modbup1 x" onclick="payment()">17000 LE</button>
+            </div>
+        </div>
+    </main>
+    <!-- Payment -->
+    <section>
+        <div class="bigdiv">
+            <div class="smdiv">
+                <p>This Is Adding Product To Cart </p>
+                <button id="bu">Return</button>
+            </div>
+            <div class="dia" id="dia">
+                <p>Click here to move the item to your Cart</p>
+                <button id="bu1">Add</button>
+            </div>
+            <div class="toast" id="toast">
+                Item Added To Cart Successfully 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="flogo">
+            <img src="./Assets/Images/logo1.png"  alt="Unavailable" id="fflogo">
+        </div>
+        <div>
+            
+            <p class="dday"><i class="fa-solid fa-calendar"></i> <span id="day">DAY</span> / <span id="month">MONTH</span></p>
+        </div>
+        <div>
+            <p>Project E-Commerce 2022 CopyRight &trade;</p>
+        </div>
+        <div class="listf">
+            <ul>
+                <li><a href="#" class="top">Top Page <i class="fa-solid fa-arrow-up"></i></a></li>
+                <li><a href="products.html" class="top">Products</a></li>
+                <li><a href="Services.html" class="top">Services</a></li>
+                <li><a href="aboutUs.html"class="top">About Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
